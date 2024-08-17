@@ -5,17 +5,47 @@
 
 **[2024/05] Our paper is accepted as a findings paper in ACL2024!**
 
+We propose a novel framework **Knowledge-to-SQL** that leverages **Data Expert Large Language Model (DELLM)** to enhance SQL generation, the paper is available [here]().
 
+
+
+## Setup
+
+### Environment
+
+**The GPU resources we use in our study is 4*A800-SXM4-80G with the corresponding CUDA version 12.1,** we strongly recommend using the torch version above 2.0.
+
+```shell
+# Clone the repository
+git https://github.com/Rcrossmeister/Knowledge-to-SQL.git
+cd ./Knowledge-to-SQL
+
+# Create the conda environment
+conda create -n dellm python=3.11.3
+conda activate dellm
+
+# Install the required packages
+pip install -r requirements.txt
+```
+
+### Dataset
+
+We mainly focus on [BIRD]() dataset in our study, we also support [Spider]() dataset for robustness study.
 
 ## Citation
 
 Please cite our paper if you include Knowledge-to-SQL in your work:
 
 ```
-@article{hong2024knowledge,
-      title={Knowledge-to-SQL: Enhancing SQL Generation with Data Expert LLM}, 
-      author={Zijin Hong and Zheng Yuan and Hao Chen and Qinggang Zhang and Feiran Huang and Xiao Huang},
-      journal={arXiv preprint arXiv:2402.11517},
-      year={2024}
+@inproceedings{hong2024knowledge,
+    title = "Knowledge-to-{SQL}: Enhancing {SQL} Generation with Data Expert {LLM}",
+    author = "Hong, Zijin  and
+      Yuan, Zheng  and
+      Chen, Hao  and
+      Zhang, Qinggang  and
+      Huang, Feiran  and
+      Huang, Xiao",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    year = "2024"
 }
 ```
