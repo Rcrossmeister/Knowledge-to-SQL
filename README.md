@@ -7,7 +7,7 @@
 
 We propose a novel framework **Knowledge-to-SQL** that leverages **Data Expert Large Language Model (DELLM)** to enhance SQL generation, the paper is available [here]().
 
-
+<img src="./slides/Framework.png" alt="Framework" style="zoom:150%;" />
 
 ## Setup
 
@@ -30,7 +30,15 @@ pip install -r requirements.txt
 
 ### Dataset
 
-We mainly focus on [BIRD]() dataset in our study, we also support [Spider]() dataset for robustness study.
+We mainly focus on **[BIRD](https://bird-bench.github.io/)** dataset in our study, we also support **[Spider](https://yale-lily.github.io/spider)** dataset for robustness study.
+
+## Training
+
+The training implementaion was inspired by **[LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory)**, you can check their technical report [here](https://arxiv.org/abs/2403.13372). 
+
+### Quick Start
+
+We provide a script to quick start upon BIRD dataset
 
 ## Citation
 
