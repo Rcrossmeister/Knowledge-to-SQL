@@ -1,4 +1,6 @@
 # Knowledge-to-SQL
+**[2024/10] Check our video presentation in [Underline](https://underline.io/events/466/posters/18354/poster/102023-knowledge-to-sql-enhancing-sql-generation-with-data-expert-llm)!**
+
 **[2024/08] The video presentation of our paper will be available soon.**
 
 **[2024/08] The presentation of our paper are scheduled at Virtual Poster Session 2, check the poster and slides [here](./slides).**
